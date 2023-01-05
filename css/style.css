@@ -9,7 +9,6 @@
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid black;
     padding: 10px;
 }
 
@@ -49,4 +48,38 @@
     top: 8px;
     width: 25px;
     height: 25px;
+}
+
+#menu-2 {
+    background-color: black;
+    padding: 1em;
+}
+
+#pan-news {
+    width: 92px;
+    height: 18px;
+    object-fit: cover;
+}
+
+#menu-list-2 {
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-span-menu-2 {
+    height: 100%;
+    padding: 15px 0px;
+}
+
+#politica {
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: darkgray;
+    padding: 30px;
 }
