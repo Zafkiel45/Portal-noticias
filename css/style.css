@@ -4,85 +4,49 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100vh;
-}
-
-/* Header */
-
-#menu-container {
-    color: white;
-    background-color: black;
-    font-family: arial, helvetica, sans-serif;
-}
-
-#menu-list {
+.menu-list {
     display: flex;
-    gap: 1.25em;
     list-style: none;
-    padding: 1.25em;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
 }
 
-#logo {
-    flex-grow: 1;
-    font-size: 1.25em;
+#icon-pan {
+    width: 70px;
+    height: 70px;
+}
+
+.header-svg {
+    position: relative;
+    top: 3px;
+    height: 22px;
+    width: 22px;
+}
+
+.item-span-header-1 {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 1.20em;
+    cursor: pointer;
+}
+
+.latter {
+    color: darkgray;
+}
+
+.red-header {
+    color: #d00303;
 }
 
 #search {
-    border-radius: 20px;
-    padding: 1% 2%;
-    appearance: none;
-    border: none;
+    width: 140px;
+    padding: 10px;
 }
 
-/* fim do header */
-
-/* Main */
-
-.img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.ntc {
-    width: 200px;
-    height: 200px;
-    margin: 7% 0px;
-}
-
-#container-ntc {
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    margin: 10% auto;
-    gap: 15px; 
-    justify-content: center;
-}
-
-.descricao {
-    text-align: center;
-    background-color: darkgray;
-    width: 100%;
+.lupa {
     position: relative;
-    bottom: 5px;
-    padding: 5px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: justify;
-    color: white;
+    top: 8px;
+    width: 25px;
+    height: 25px;
 }
-
-.title-description {
-    display: block;
-    font-weight: bold;
-    background-color: rgb(255, 0, 4);
-    width: 198px;
-    position: relative;
-    bottom: 5px;
-    right: 4px;
-
-}
-
-/* Fim do main */
