@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jovem pan clone</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js" defer></script>
 </head>
 <body>
     <header class="menu-container">
@@ -37,22 +38,93 @@
                     <span class="item-span-menu-2">Mundo</span>
                 </li>
                 <li class="item-menu-2">
-                    <span class="item-span-menu-2">Política</span>
+                    <span class="item-span-menu-2" id="plt-header">Política</span>
+                    <div id="politica">
+                        <ul class="list-none-2">
+                            <h2 class="title-header-2">politica</h2>
+                            <li class="item-none-2">Apuração - Presidente</li>
+                            <li class="item-none-2">Apuração - Governador</li>
+                            <li class="item-none-2">Apuração - Dep.Estadual</li>
+                            <li class="item-none-2">Apuração - Dep.Federal</li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="item-menu-2">
-                    <span class="item-span-menu-2">Brasil</span>
+                    <span class="item-span-menu-2" id="plt-brasil">Brasil</span>
+                    <div id="brasil">
+                        <ul class="list-none-2-brasil">
+                            <li class="item-none-2-brasil">Educação</li>
+                            <li class="item-none-2-brasil">Coronavírus</li>
+                            <li class="item-none-2-brasil">Saúde</li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="item-menu-2">
-                    <span class="item-span-menu-2">Economia</span>
+                    <span class="item-span-menu-2" id="plt-economia">Economia</span>
+                    <div id="economia">
+                        <ul class="list-none-2-economia">
+                            <li class="item-none-2-economia">Agronegócio</li>
+                            <li class="item-none-2-economia">Veículos</li>
+                            <li class="item-none-2-economia">tecnologia</li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="item-menu-2">
-                    <span class="item-span-menu-2">Esportes</span>
+                    <span class="item-span-menu-2" id="ptl-esporte">Esportes</span>
+                    <div id="esporte">
+                        <ul class="list-none-2-esporte">
+                            <li class="item-none-2-esporte">Futebol</li>
+                            <li class="item-none-2-esporte">Mais Esportes</li>
+                            <li class="item-none-2-esporte">Copa do mundo 2022</li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="item-menu-2">
-                    <span class="item-span-menu-2">Entretenimento</span>
+                    <span class="item-span-menu-2" id="ptl-entretenimento">Entretenimento</span>
+                    <div id="entretenimento">
+                        <ul class="list-none-2-estretenimento">
+                            <li class="item-none-2-entretenimento">Musica</li>
+                            <li class="item-none-2-entretenimento">Mulheres na Pan</li>
+                            <li class="item-none-2-entretenimento">Famosos</li>
+                            <li class="item-none-2-entretenimento">Mais Esportes</li>
+                            <li class="item-none-2-entretenimento">Tv e Cinema</li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="item-menu-2">
-                    <span class="item-span-menu-2">Colunistas</span>
+                    <span class="item-span-menu-2" id="ptl-colunistas">Colunistas</span>
+                    <div id="colunistas">
+                        <ul class="list-none-2-colunistas">
+                            <ul class="list-sub-2">
+                                <li class="item-sub-2">Bia Garbato</li>
+                                <li class="item-sub-2">Camila Magalhões</li>
+                                <li class="item-sub-2">Claudia</li>
+                                <li class="item-sub-2">David Alves</li>
+                                <li class="item-sub-2">Esper Chacur filho</li>
+                                <li class="item-sub-2">Fabi Saad</li>
+                            </ul>
+                            <ul class="list-sub-2">
+                                <li class="item-sub-2">Helena Degreas</li>
+                                <li class="item-sub-2">Jairo Rodrigues</li>
+                                <li class="item-sub-2">Jaqueline Falcão</li>
+                                <li class="item-sub-2">Sergio Serrão</li>
+                                <li class="item-sub-2">Jose Maria Trindade</li>
+                                <li class="item-sub-2">Kellen severo</li>
+                            </ul>
+                            <ul class="list-sub-2">
+                                <li class="item-sub-2">Reinaldo Polito</li>
+                                <li class="item-sub-2">Ricardo Motta</li>
+                                <li class="item-sub-2">Sergio Cinerman</li>
+                                <li class="item-sub-2">Samy Dana</li>
+                            </ul>
+                            <ul class="list-sub-2">
+                                <li class="item-sub-2">Mulheres na Pan</li>
+                                <li class="item-sub-2">Paula Carvalho</li>
+                                <li class="item-sub-2">Trip to Flow</li>
+                                <li class="item-sub-2">Turismo na Pan</li>
+                            </ul>
+                        </ul>
+                    </div>
                 </li>
                 <li class="item-menu-2">
                     <span class="item-span-menu-2">Programa</span>
@@ -71,15 +143,6 @@
                 </li>
             </ol>
         </nav>
-        <!-- <div id="politica">
-            <ul class="list-none-2">
-                <h2 class="title-header-2">politica</h2>
-                <li class="item-none-2">Apuração - Presidente</li>
-                <li class="item-none-2">Apuração - Governador</li>
-                <li class="item-none-2">Apuração - Dep.Estadual</li>
-                <li class="item-none-2">Apuração - Dep.Federal</li>
-            </ul> -->
-        </div>
         <nav></nav>
     </header>
 </body>
