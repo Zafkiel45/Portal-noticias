@@ -221,11 +221,29 @@
     margin-top: 10px;
 }
 
-#programas {
+#programa {
     margin: 10px;
     position: absolute;
     top: 137px;
-    right: 650px;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: darkgray;
+    padding: 30px;
+    z-index: 1;
+    box-shadow: 0px 1px 1px black;
+}
+
+#programa {
+    display: none;
+}
+
+#bem-estar {
+    margin: 10px;
+    position: absolute;
+    top: 137px;
+    right: 300px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -236,38 +254,14 @@
 }
 
 #bem-estar {
-    margin: 10px;
-    position: absolute;
-    top: 137px;
-    right: 650px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    color: darkgray;
-    padding: 30px;
-    z-index: 1;
-    box-shadow: 0px 1px 1px black;
-}
-
-#podcast {
-    margin: 10px;
-    position: absolute;
-    top: 137px;
-    right: 650px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    color: darkgray;
-    padding: 30px;
-    z-index: 1;
-    box-shadow: 0px 1px 1px black;
+    display: none;
 }
 
 #especiais {
     margin: 10px;
     position: absolute;
     top: 137px;
-    right: 650px;
+    right: 50px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -275,4 +269,28 @@
     padding: 30px;
     z-index: 1;
     box-shadow: 0px 1px 1px black;
+}
+
+#especias {
+    display: none;
+}
+
+#carrosel {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#appnews {
+    margin: 0px 30px;
+}
+
+.list-carrosel {
+    display: flex;
+    position: relative;
+    width: 700px;
+    overflow: hidden;
+    gap: 20px;
+
 }

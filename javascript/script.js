@@ -65,3 +65,51 @@ colunistas.addEventListener('mouseenter', function(){
 colunistas.addEventListener('mouseout', function(){
     plt_colunistas.style.display = 'none'
 })
+
+// Programa
+
+let programa = document.getElementById('ptl-programa');
+let ptl_programa = document.getElementById('programa');
+
+programa.addEventListener('mouseenter', function(){
+    ptl_programa.style.display = 'flex'
+})
+
+programa.addEventListener('mouseout', function(){
+    ptl_programa.style.display = 'none'
+})
+
+// bem-estar
+
+let bem_estar = document.getElementById('ptl-bem-estar');
+let ptl_estar = document.getElementById('bem-estar');
+
+bem_estar.addEventListener('mouseenter', function(){
+    ptl_estar.style.display = 'flex'
+})
+
+bem_estar.addEventListener('mouseout', function(){
+    ptl_estar.style.display = 'none'
+})
+
+// especiais
+
+let especiais = document.getElementById('ptl-especiais');
+let ptl_especiais = document.getElementById('especiais');
+
+especiais.addEventListener('mouseenter', function(){
+    ptl_especiais.style.display = 'flex'
+})
+
+especiais.addEventListener('mouseout', function(){
+    ptl_especiais.style.display = 'none'
+})
+
+// loop header 
+
+let carrosel = document.getElementById('translate')
+
+
+for(let c = 1; c < 10.000; c++ ){
+    carrosel.style.overflowX = '200px'
+}
