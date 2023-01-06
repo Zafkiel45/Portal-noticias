@@ -271,7 +271,7 @@
     box-shadow: 0px 1px 1px black;
 }
 
-#especias {
+#especiais {
     display: none;
 }
 
@@ -283,14 +283,72 @@
 }
 
 #appnews {
-    margin: 0px 30px;
+    position: relative;
+    left: 150px;
 }
 
 .list-carrosel {
     display: flex;
     position: relative;
-    width: 700px;
-    overflow: hidden;
+    left: 190px;
+    width: 930px;
     gap: 20px;
+    overflow: hidden;
+}
 
+.item-carrosel {
+    position: relative;
+    animation: slide 25s infinite linear;
+}
+
+@keyframes slide {
+    0% {left: 0px}
+    50% {left: -50%}
+    100% {left: -100%}
+}
+
+.slide-main {
+    height: 265px;
+    width: 265px;
+    object-fit: cover;
+}
+
+.img-ntc {
+    height: 70px;
+    width: 70px;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 17% auto;
+}
+
+#grid-main {
+    display: grid;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item4"
+    "item5 item6"
+    ;
+    gap: 30px;
+    grid-template-columns: 300px 300px;
+}
+
+.container-ntc {
+    display: flex;
+    gap: 20px;
+}
+
+#container-title {
+    position: absolute;
+    left: 140px;
+    top: 250px ;
+    height: 100px;
+    width: 700px;
+}
+
+#container-title > p {
+    margin: 20px 0px;
 }

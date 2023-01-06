@@ -104,12 +104,3 @@ especiais.addEventListener('mouseenter', function(){
 especiais.addEventListener('mouseout', function(){
     ptl_especiais.style.display = 'none'
 })
-
-// loop header 
-
-let carrosel = document.getElementById('translate')
-
-
-for(let c = 1; c < 10.000; c++ ){
-    carrosel.style.overflowX = '200px'
-}
